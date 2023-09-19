@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Clone Youtube-DIO</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img
+          class="youtube-logo"
+          src="./assets/IMG/logo.png"
+          alt="Youtube logo"
+        />
+      </a>
+
+      <form class="search-bar">
+        <input
+          class="search-input"
+          type="search"
+          placeholder="search"
+          aria-label="search"
+        />
+        <button type="submit" class="search-btn">
+          <img class="search-btn" src="./assets/IMG/lupa.png" />
+        </button>
+      </form>
+
+      <div class="menu-icons">
+        <a href="#">
+          <img
+            class="menu-icons"
+            src="./assets/IMG/plus.svg"
+            alt="Upload Video"
+          />
+        </a>
+
+        <a href="#">
+          <img class="menu-icons" src="./assets/IMG/apps.svg" alt="Apps" />
+        </a>
+
+        <a href="#">
+          <img
+            class="menu-icons"
+            src="./assets/IMG/bell.svg"
+            alt="Notifications"
+          />
+        </a>
+
+        <a href="#">
+          <img
+            class="menu-channel-icon"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR68CGMPpUZDSXu6xpKzPHuATX3qnTKs7JuMarfK2efrbJ0Ja_61mMB7niYk7hd3cLBIb0&usqp=CAU"
+            alt="Your Chanel"
+          />
+        </a>
+      </div>
+    </header>
+
+    <div class="player">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/B6_os-gK7F0?si=OSKKFia1ZnijVPhB"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <div class="categories">
+      <section class="category-section">
+        <button class="category active">Tudo</button>
+        <button class="category">Games</button>
+        <button class="category">Programação</button>
+        <button class="category">Musicas</button>
+        <button class="category">Documentrios</button>
+        <button class="category">Filmes</button>
+        <button class="category">Live Strem</button>
+        <button class="category">Desenhos</button>
+        <button class="category">Tecnologia</button>
+        <button class="category">Carros</button>
+      </section>
+    </div>
+
+    <div class="videos">
+      <section class="video-section">
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:00">
+            <img class="thumbnail-image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4g28gRiD9pwYJ-Jp_JmhFXIksx56p7hEa-Q&usqp=CAU""
+            alt="">
+          </a>
+
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkRvtSjw45NO-36QEhdCqqQGiNHXDVsNhC2A&usqp=CAU"
+                alt=""
+              />
+            </a>
+
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name">Leandro de Paula</a>
+
+              <div class="video-metada">
+                <span>1.5M Views</span>
+                &bull;
+                <span>3 Weeks ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:00">
+            <img class="thumbnail-image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4g28gRiD9pwYJ-Jp_JmhFXIksx56p7hEa-Q&usqp=CAU""
+            alt="">
+          </a>
+
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkRvtSjw45NO-36QEhdCqqQGiNHXDVsNhC2A&usqp=CAU"
+                alt=""
+              />
+            </a>
+
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name">Leandro de Paula</a>
+
+              <div class="video-metada">
+                <span>1.5M Views</span>
+                &bull;
+                <span>3 Weeks ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:00">
+            <img class="thumbnail-image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4g28gRiD9pwYJ-Jp_JmhFXIksx56p7hEa-Q&usqp=CAU""
+            alt="">
+          </a>
+
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkRvtSjw45NO-36QEhdCqqQGiNHXDVsNhC2A&usqp=CAU"
+                alt=""
+              />
+            </a>
+
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name">Leandro de Paula</a>
+
+              <div class="video-metada">
+                <span>1.5M Views</span>
+                &bull;
+                <span>3 Weeks ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:00">
+            <img class="thumbnail-image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4g28gRiD9pwYJ-Jp_JmhFXIksx56p7hEa-Q&usqp=CAU""
+            alt="">
+          </a>
+
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkRvtSjw45NO-36QEhdCqqQGiNHXDVsNhC2A&usqp=CAU"
+                alt=""
+              />
+            </a>
+
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name">Leandro de Paula</a>
+
+              <div class="video-metada">
+                <span>1.5M Views</span>
+                &bull;
+                <span>3 Weeks ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:00">
+            <img class="thumbnail-image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4g28gRiD9pwYJ-Jp_JmhFXIksx56p7hEa-Q&usqp=CAU""
+            alt="">
+          </a>
+
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkRvtSjw45NO-36QEhdCqqQGiNHXDVsNhC2A&usqp=CAU"
+                alt=""
+              />
+            </a>
+
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name">Leandro de Paula</a>
+
+              <div class="video-metada">
+                <span>1.5M Views</span>
+                &bull;
+                <span>3 Weeks ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:00">
+            <img class="thumbnail-image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4g28gRiD9pwYJ-Jp_JmhFXIksx56p7hEa-Q&usqp=CAU""
+            alt="">
+          </a>
+
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkRvtSjw45NO-36QEhdCqqQGiNHXDVsNhC2A&usqp=CAU"
+                alt=""
+              />
+            </a>
+
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name">Leandro de Paula</a>
+
+              <div class="video-metada">
+                <span>1.5M Views</span>
+                &bull;
+                <span>3 Weeks ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:00">
+            <img class="thumbnail-image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4g28gRiD9pwYJ-Jp_JmhFXIksx56p7hEa-Q&usqp=CAU""
+            alt="">
+          </a>
+
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkRvtSjw45NO-36QEhdCqqQGiNHXDVsNhC2A&usqp=CAU"
+                alt=""
+              />
+            </a>
+
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name">Leandro de Paula</a>
+
+              <div class="video-metada">
+                <span>1.5M Views</span>
+                &bull;
+                <span>3 Weeks ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:00">
+            <img class="thumbnail-image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4g28gRiD9pwYJ-Jp_JmhFXIksx56p7hEa-Q&usqp=CAU""
+            alt="">
+          </a>
+
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkRvtSjw45NO-36QEhdCqqQGiNHXDVsNhC2A&usqp=CAU"
+                alt=""
+              />
+            </a>
+
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name">Leandro de Paula</a>
+
+              <div class="video-metada">
+                <span>1.5M Views</span>
+                &bull;
+                <span>3 Weeks ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:00">
+            <img class="thumbnail-image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4g28gRiD9pwYJ-Jp_JmhFXIksx56p7hEa-Q&usqp=CAU""
+            alt="">
+          </a>
+
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkRvtSjw45NO-36QEhdCqqQGiNHXDVsNhC2A&usqp=CAU"
+                alt=""
+              />
+            </a>
+
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name">Leandro de Paula</a>
+
+              <div class="video-metada">
+                <span>1.5M Views</span>
+                &bull;
+                <span>3 Weeks ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:00">
+            <img class="thumbnail-image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4g28gRiD9pwYJ-Jp_JmhFXIksx56p7hEa-Q&usqp=CAU""
+            alt="">
+          </a>
+
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkRvtSjw45NO-36QEhdCqqQGiNHXDVsNhC2A&usqp=CAU"
+                alt=""
+              />
+            </a>
+
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name">Leandro de Paula</a>
+
+              <div class="video-metada">
+                <span>1.5M Views</span>
+                &bull;
+                <span>3 Weeks ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:00">
+            <img class="thumbnail-image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4g28gRiD9pwYJ-Jp_JmhFXIksx56p7hEa-Q&usqp=CAU""
+            alt="">
+          </a>
+
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkRvtSjw45NO-36QEhdCqqQGiNHXDVsNhC2A&usqp=CAU"
+                alt=""
+              />
+            </a>
+
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name">Leandro de Paula</a>
+
+              <div class="video-metada">
+                <span>1.5M Views</span>
+                &bull;
+                <span>3 Weeks ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:00">
+            <img class="thumbnail-image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4g28gRiD9pwYJ-Jp_JmhFXIksx56p7hEa-Q&usqp=CAU""
+            alt="">
+          </a>
+
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkRvtSjw45NO-36QEhdCqqQGiNHXDVsNhC2A&usqp=CAU"
+                alt=""
+              />
+            </a>
+
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name">Leandro de Paula</a>
+
+              <div class="video-metada">
+                <span>1.5M Views</span>
+                &bull;
+                <span>3 Weeks ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="video-container">
+          <a href="#" class="thumbnail" data-duration="12:00">
+            <img class="thumbnail-image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4g28gRiD9pwYJ-Jp_JmhFXIksx56p7hEa-Q&usqp=CAU""
+            alt="">
+          </a>
+
+          <div class="video-bottom-section">
+            <a href="#">
+              <img
+                class="channel-icon"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkRvtSjw45NO-36QEhdCqqQGiNHXDVsNhC2A&usqp=CAU"
+                alt=""
+              />
+            </a>
+
+            <div class="video-details">
+              <a href="#" class="video-title">Video Title</a>
+              <a href="#" class="video-channel-name">Leandro de Paula</a>
+
+              <div class="video-metada">
+                <span>1.5M Views</span>
+                &bull;
+                <span>3 Weeks ago</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </div>
+  </body>
+</html>
